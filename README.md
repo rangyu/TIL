@@ -9,4 +9,4 @@
 ---
 
 ## Python
-- [파이썬 Selenium로 웹 크롤링하기](./python/파이썬%20Selenium로%20웹%20크롤링하기.md)
+- [파이썬 Selenium으로 웹 크롤링하기](./python/파이썬%20Selenium으로%20웹%20크롤링하기.md)
