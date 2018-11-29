@@ -4,7 +4,7 @@
 
 ## 필요한 파일 설치하기
 
-### 1.S elenium  설치하기
+### 1. Selenium  설치하기
 
 파이썬 request를 사용하면 인스타그램 태그 개수를 제대로 읽히지 않는다. 왜냐하면 페이지 내용이 뜨기 전에 인스타그램 로딩 페이지가 읽히기 때문. 따라서 Selenium를 사용해서 크롬창을 띄운 뒤 내용이 나온 페이지를 크롤링한다. 
 
@@ -20,6 +20,17 @@ pip install selenium
 
 ```
 pip install beautifulsoup4
+```
+
+## 크롬창을 띄우지 않는 옵션 넣기
+Selenium의 웹 드라이버를 사용하면 크롬창이 새로 뜬 다음 해당 페이지를 크롤링한다. 이때 크롬창을 띄우지 않고 크롤링하길 원한다면 다음과 같은 옵션을 추가하면 된다.
+
+```Python
+# 크롬창을 띄우지 않는 옵션을 넣는다
+options = webdriver.ChromeOptions()
+options.add_argument('headless')
+options.add_argument('disable-gpu')
+driver = webdriver.Chrome('/Applications/chromedriver', chrome_options=options)
 ```
 
 ## 완성된 코드
