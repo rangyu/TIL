@@ -22,8 +22,19 @@ pip install selenium
 pip install beautifulsoup4
 ```
 
+## 크롬드라이버 설치하기
+Selenium은 기본적으로 파이어폭스 드라이버가 설치되어 있다. 만약 크롬을 사용하고 싶다면 먼저 크롬 드라이버를 설치해야 한다. 아래 사이트에서 크롬 드라이버를 설치할 수 있다.
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+
+다음과 같이 크롬 드라이버를 사용할 수 있다. '/Applications/chromedriver' 부분에 자신이 크롬 드라이버를 설치한 경로를 입력하면 된다.
+
+```Python
+# 크롬 드라이버를 사용한다
+driver = webdriver.Chrome('/Applications/chromedriver')
+```
+
 ## 크롬창을 띄우지 않는 옵션 넣기
-Selenium의 웹 드라이버를 사용하면 크롬창이 새로 뜬 다음 해당 페이지를 크롤링한다. 이때 크롬창을 띄우지 않고 크롤링하길 원한다면 다음과 같은 옵션을 추가하면 된다.
+Selenium의 웹 드라이버를 사용하면 크롬창이 새로 뜬 다음 해당 페이지를 크롤링한다. 이때 크롬 창을 띄우지 않길 원한다면 다음과 같은 ``headless`` 옵션을 추가할 수 있다.
 
 ```Python
 # 크롬창을 띄우지 않는 옵션을 넣는다
