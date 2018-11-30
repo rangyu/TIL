@@ -2,8 +2,6 @@
 
 Hightchart 그라이데이션 막대그래프 예제. 베이스컬러 기준으로 칼럼의 색상이 점점 더 밝은 색으로 바꾼다.
 
-[데모 보러가기](./Highchart로-그라데이션-막대-그래프-만들기/demo.html)
-
 ```javascript
  Highcharts.getOptions().plotOptions.column.colors = (function() {
         var colors = [],
