@@ -18,4 +18,4 @@
 - [파이썬 Selenium으로 웹 크롤링하기](./python/파이썬-Selenium으로-웹-크롤링하기.md)
 
 ## Highchart
-- [Highchart로 그라데이션 막대 그래프 만들기](./highchart/Highchart로-그라데이션-막대-그래프-만들기.md)
+- [Highchart로 그라데이션 막대 그래프 만들기](./highchart/Highchart로-그라데이션-막대-그래프-만들기.md)
