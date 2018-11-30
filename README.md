@@ -6,7 +6,7 @@
 ## 카테고리
 - [Git](#git)
 - [Python](#python)
-
+- [Highchart](#highchart)
 
 ---
 
@@ -16,3 +16,6 @@
 ## Python
 - [파이썬 한글 인코딩 문제 (SyntaxError: Non-ASCII character)](./python/파이썬-한글-인코딩-문제-(SyntaxError-Non-ASCII-character).md)
 - [파이썬 Selenium으로 웹 크롤링하기](./python/파이썬-Selenium으로-웹-크롤링하기.md)
+
+## Highchart
+- [Highchart로 그라데이션 막대 그래프 만들기](./python/Highchart로-그라데이션-막대-그래프-만들기.md)
