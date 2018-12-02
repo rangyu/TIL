@@ -4,8 +4,6 @@ Let’s Encrypt는 무료로 사용할 수 있는 SSL 인증서다. 이 글에�
 
 - 참고한 문서 (https://docs.bitnami.com/aws/how-to/generate-install-lets-encrypt-ssl/)
 
----
-
 ##  1. Lego 클라이언트 설치하기
 
 깃허브 저장소에서 Lego 최신 버전 다운받는다.
@@ -31,7 +29,6 @@ sudo mv lego /usr/local/bin/lego
 ```
 이제 Lego 클라이언트를 사용할 준비를 마쳤다.
 
----
 
 ## 2. Let’s Encrypt SSL 인증서 발급받기
 
@@ -46,7 +43,6 @@ sudo lego --email="EMAIL-ADDRESS" --domains="DOMAIN" --domains="www.DOMAIN" --pa
 ```
 domains 옵션을 사용했기 때문에 최소 2개 이상의 도메인을 입력해야 한다. mydomain.com과 www.mydomain.com를 포함한 2개 이상의 도메인을 모두 입력한다.
 
----
 
 ## 3. 아파치 환경설정 수정하기
 
@@ -71,12 +67,10 @@ sudo chmod 600 /opt/bitnami/apache2/conf/server*
 비트나미 서비스를 재시작한다.
 ```bash
 sudo /opt/bitnami/ctlscript.sh start
-
-
 ```
-확인하면 https://로 접속이 가능해진 것을 볼 수 있다. 
 
----
+이제 https로 접속이 제대로 되는 것을 볼 수 있다.
+
 
 ## 4. http로 접속 시 https로 리다이렉트 설정하기
 
@@ -96,5 +90,5 @@ RewriteRule ^/(.*) https://%{SERVER_NAME}/$1 [R,L]
 sudo /opt/bitnami/ctlscript.sh start
 ```
 
-이후부터 http://로 접속 시 자동으로 https://로 변경된다. 
+이후부터 http로 접속 시 자동으로 https로 변경된다. 
 
