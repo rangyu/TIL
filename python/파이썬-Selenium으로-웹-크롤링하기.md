@@ -45,9 +45,7 @@ driver = webdriver.Chrome('/Applications/chromedriver', chrome_options=options)
 
 ## 완성된 코드	
 
- ```Python	
-# -*- coding: utf-8 -*- 	
-
+ ```Python
 from bs4 import BeautifulSoup	
 import selenium.webdriver as webdriver	
 
@@ -63,7 +61,7 @@ driver = webdriver.Chrome('/Applications/chromedriver', chrome_options=options)
 # url에 접근한다	
 driver.get(url)	
 
-# 크롤링한 웹페이지를 파싱한다.	
+# 크롤링한 웹페이지를 파싱한다	
 soup = BeautifulSoup(driver.page_source, "html.parser")	
 tag = soup.find("span",{"class": "g47SY"})	
 count = tag.text
