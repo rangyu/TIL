@@ -56,7 +56,7 @@ url = 'https://www.instagram.com/explore/tags/mytag/'
 options = webdriver.ChromeOptions()	
 options.add_argument('headless')	
 options.add_argument('disable-gpu')	
-driver = webdriver.Chrome('/Applications/chromedriver', chrome_options=options)	
+driver = webdriver.Chrome('/Applications/chromedriver', options=options)	
 
 # url에 접근한다	
 driver.get(url)	
