@@ -12,23 +12,15 @@
 pip install selenium
 ```
 
-## BeautifulSoup 설치하기	
-
-인스타그램 태그 개수 값은 ``<span class="g47SY"></span>`` 안에 표시된다. BeautifulSoup는 사용하면 웹페이지를 쉽게 파싱하고 원하는 값을 가져올 수 있다.	
-
-```	
-pip install beautifulsoup4	
-```	
-
 ## 크롬드라이버 설치하기
 
-Selenium은 기본적으로 파이어폭스 드라이버가 설치되어 있다. 만약 크롬을 사용하고 싶다면 먼저 크롬 드라이버를 설치해야 한다. 아래 사이트에서 크롬 드라이버를 설치할 수 있다.	
+Selenium은 기본적으로 파이어폭스 드라이버가 설치되어 있다. 만약 크롬 브라우저를 사용하고 싶다면 먼저 크롬 드라이버를 설치해야 한다. 아래 사이트에서 크롬 드라이버를 설치할 수 있다.	
 https://sites.google.com/a/chromium.org/chromedriver/downloads	
 
  ```Python	
 # 크롬 드라이버를 사용한다	
 driver = webdriver.Chrome('/Applications/chromedriver')	
-```	
+ ```
 위와 같이 크롬 드라이버를 사용할 수 있다. '/Applications/chromedriver' 부분에는 자신이 크롬 드라이버를 설치한 경로를 입력하면 된다.
 
 ## 크롬창을 띄우지 않는 옵션 넣기 (headless)	
@@ -40,10 +32,31 @@ Selenium의 웹 드라이버를 사용하면 크롬창이 새로 뜬 다음 해�
 options = webdriver.ChromeOptions()	
 options.add_argument('headless')	
 options.add_argument('disable-gpu')	
-driver = webdriver.Chrome('/Applications/chromedriver', chrome_options=options)	
-```	
+driver = webdriver.Chrome('/Applications/chromedriver', options=options)
+
+ ```
+## 5초간 기다린 후 URL에 접근하기
+인스타그램은 먼저 로고 이미지가 뜬 다음 내용 페이지로 바뀐다. 내용이 충분히 뜰 때까지 몇 초간 기다린 후 URL에 접근해서 페이지를 크롤링한다. 
+
+```Python	
+# 암시적으로 5초간 기다린다
+driver.implicitly_wait(5)
+
+# url에 접근한다
+driver.get(url)
+ ```
+## 게시물 값을 가져온다
+인스타그램의 태그 게시물 개수는 ``<span ="g47SY">``안에 표시된다. ``find_element_by_class_name()`` 함수를 사용하면 클래스 이름으로 값을 가져올 수 있다.  
+
+```Python
+# 게시물 개수를 가져온다
+totalCount = driver.find_element_by_class_name('g47SY').text 
+print("총 게시물 수:", totalCount)
+```
 
 ## 완성된 코드	
+
+완성된 코드는 다음과 같다.
 
  ```Python
 from bs4 import BeautifulSoup	
@@ -58,13 +71,13 @@ options.add_argument('headless')
 options.add_argument('disable-gpu')	
 driver = webdriver.Chrome('/Applications/chromedriver', options=options)	
 
-# url에 접근한다	
-driver.get(url)	
+# 암시적으로 5초간 기다린다
+driver.implicitly_wait(5)
 
-# 크롤링한 웹페이지를 파싱한다	
-soup = BeautifulSoup(driver.page_source, "html.parser")	
-tag = soup.find("span",{"class": "g47SY"})	
-count = tag.text
+# url에 접근한다
+driver.get(url)
 
-print(count)	
-```
+# 게시물 개수 정보를 가져온다
+totalCount = driver.find_element_by_class_name('g47SY').text 
+print("총 게시물 수:", totalCount)	
+ ```
