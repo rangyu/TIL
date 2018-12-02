@@ -7,6 +7,7 @@
 - [Git](#git)
 - [Python](#python)
 - [Highchart](#highchart)
+- [Bitnami](#bitnami)
 
 ---
 
@@ -20,3 +21,6 @@
 
 ## Highchart
 - [Highchart로 그라데이션 막대 그래프 만들기](./highchart/Highchart로-그라데이션-막대-그래프-만들기.md)
+
+## Bitnami
+- [비트나미 워드프레스에 Let’s Encrypt 인증서 설치하기](./bitnami/비트나미-워드프레스에-Letsencrypt-인증서-설치하기.md)
