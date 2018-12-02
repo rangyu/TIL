@@ -4,6 +4,7 @@ Let’s Encrypt는 무료로 사용할 수 있는 SSL 인증서다. 이 글에�
 
 - 참고한 문서 (https://docs.bitnami.com/aws/how-to/generate-install-lets-encrypt-ssl/)
 
+---
 
 ##  1. Lego 클라이언트 설치하기
 
@@ -30,6 +31,8 @@ sudo mv lego /usr/local/bin/lego
 ```
 이제 Lego 클라이언트를 사용할 준비를 마쳤다.
 
+---
+
 ## 2. Let’s Encrypt SSL 인증서 발급받기
 
 비트나미 서비스를 잠시 꺼둔다.
@@ -43,9 +46,11 @@ sudo lego --email="EMAIL-ADDRESS" --domains="DOMAIN" --domains="www.DOMAIN" --pa
 ```
 domains 옵션을 사용했기 때문에 최소 2개 이상의 도메인을 입력해야 한다. mydomain.com과 www.mydomain.com를 포함한 2개 이상의 도메인을 모두 입력한다.
 
-## 3. 아파치 환경설정 
+---
 
-기존 설정된 인증서는 백업하고 방금 발급받은 인증서를 웹서버 인증서로 사용한다. 
+## 3. 아파치 환경설정 수정하기
+
+기존 설정된 인증서는 백업하고 방금 발급받은 인증서를 웹서버 인증서로 사용하기 위해 다음과 같은 명령어를 입력한다. 
 
 ```bash
 sudo mv /opt/bitnami/apache2/conf/server.crt /opt/bitnami/apache2/conf/server.crt.old
@@ -54,18 +59,26 @@ sudo mv /opt/bitnami/apache2/conf/server.csr /opt/bitnami/apache2/conf/server.cs
 sudo ln -s /etc/lego/certificates/DOMAIN.key /opt/bitnami/apache2/conf/server.key
 sudo ln -s /etc/lego/certificates/DOMAIN.crt /opt/bitnami/apache2/conf/server.crt
 ```
+
 소유자는 root, 퍼미션은 600으로 변경한다.
+
 ```
 sudo chown root:root /opt/bitnami/apache2/conf/server*
 sudo chmod 600 /opt/bitnami/apache2/conf/server*
 ```
+
+
 비트나미 서비스를 재시작한다.
 ```bash
 sudo /opt/bitnami/ctlscript.sh start
+
+
 ```
 확인하면 https://로 접속이 가능해진 것을 볼 수 있다. 
 
-### 4. http로 접속 시 https로 리다이렉트 설정하기
+---
+
+## 4. http로 접속 시 https로 리다이렉트 설정하기
 
 ``httpd-prefix.conf`` 설정파일을 연다.
 ```bash
