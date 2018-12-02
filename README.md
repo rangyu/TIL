@@ -28,3 +28,6 @@
 
 ## Mac
 - [Mac에서 가상 호스트 (VirtualHost) 설정하기](./mac/Mac에서-가상-호스트-VirtualHost-설정하기.md)
+
+## Wordpress
+- [워드프레스 현재 로그인 사용자가 관리자인지 확인하기](./wordpress/워드프레스-현재-로그인-사용자가-관리자인지-확인하기.md)
