@@ -45,13 +45,13 @@ driver = webdriver.Chrome('/Applications/chromedriver', options=options)
 driver.implicitly_wait(5)
 ```
 
-(참고) 이때, ``implicitly_wait`` 함수는 오직 세션 당 1회만 실행된다.  만약 반복해서 시간 지연을 하고 싶다면 ``implicitly_wait(sec)``말고 ``time.sleep(sec)`` 함수를 사용하자.
+(참고) 이때, ``implicitly_wait()`` 함수는 오직 세션 당 1회만 실행된다.  만약 반복해서 시간 지연을 하고 싶다면 ``implicitly_wait()``말고 ``time.sleep()`` 함수를 사용하자.
 
 ```
 import time
 
 # 5초간 대기한다
-time.sleep(3)
+time.sleep(5)
 ```
 
 ## URL 페이지 정보를 가져온다
