@@ -59,7 +59,6 @@ print("총 게시물 수:", totalCount)
 완성된 코드는 다음과 같다.
 
  ```Python
-from bs4 import BeautifulSoup	
 import selenium.webdriver as webdriver	
 
 # 검색할 태그명
