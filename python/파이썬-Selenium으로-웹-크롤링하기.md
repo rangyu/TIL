@@ -51,6 +51,7 @@ driver.implicitly_wait(5)
 
 ```Python
 import time
+
 # 5초간 대기한다
 time.sleep(5)
 ```
