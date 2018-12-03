@@ -62,8 +62,11 @@ print("총 게시물 수:", totalCount)
 from bs4 import BeautifulSoup	
 import selenium.webdriver as webdriver	
 
-# 인스타그램 태그 페이지	
-url = 'https://www.instagram.com/explore/tags/mytag/'	
+# 검색할 태그명
+tag = 'your-tag-name'
+
+# 인스타그램 태그 페이지 URL	
+url = 'https://www.instagram.com/explore/tags/' + tag 
 
 # 크롬창을 띄우지 않는 옵션을 넣는다	
 options = webdriver.ChromeOptions()	
@@ -79,5 +82,7 @@ driver.get(url)
 
 # 게시물 개수 정보를 가져온다
 totalCount = driver.find_element_by_class_name('g47SY').text 
-print("총 게시물 수:", totalCount)	
+
+# 게시물 개수를 출력한다
+print("totalCount :", totalCount)	
  ```
