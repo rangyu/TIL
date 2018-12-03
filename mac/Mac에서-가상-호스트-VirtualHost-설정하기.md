@@ -2,7 +2,7 @@
 
 이 글에서는 Mac에서 가상 호스트(VirtualHost)를 설정하는 방법에 대해 알아보고자 한다.
 
-## 1. httpd.conf 수정하기
+## httpd.conf 수정하기
 
 먼저 ``httpd.conf`` 파일을 연다. 
 
@@ -21,7 +21,7 @@ LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so
 Include /private/etc/apache2/extra/httpd-vhosts.conf
 ```
 
-## 2. httpd-vhosts.conf 수정하기
+## httpd-vhosts.conf 수정하기
 
 ``httpd-vhost.conf`` 파일을 수정한다.
 
@@ -47,7 +47,7 @@ sudo vi /etc/apache2/extra/httpd-vhosts.conf
 
 
 
-## 3. DNS 주소 추가하기
+## DNS 주소 추가하기
 
 DNS 주소를 추가하기 위해 ``hosts`` 파일을 연다.
 
