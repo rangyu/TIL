@@ -10,7 +10,7 @@
 - 사이트 주소 (URL) : ``mysite.com`` (폴더명이 없는 url)
 
 
-## 2. index.phpd와 .htaccess(없으면생략) 파일 복사
+## 2. index.php와 .htaccess(없으면생략) 파일 복사
 ``/wp`` 폴더에 있는 index.php 파일과 .htaccess(없으면생략)을 루트에 복사한다.
 
 ## 3. 루트의 index.php 수정하기

@@ -1,8 +1,6 @@
 # Mac에서 가상 호스트 (VirtualHost) 설정하기
 
-이 글에서는 Mac에서 가상 호스틍(VirtualHost)를 설정하는 방법에 대해 알아본다. 
-
-
+이 글에서는 Mac에서 가상 호스트(VirtualHost)를 설정하는 방법에 대해 알아보고자 한다.
 
 ## 1. httpd.conf 수정하기
 
@@ -22,8 +20,6 @@ LoadModule vhost_alias_module libexec/apache2/mod_vhost_alias.so
 # Virtual hosts
 Include /private/etc/apache2/extra/httpd-vhosts.conf
 ```
-
-
 
 ## 2. httpd-vhosts.conf 수정하기
 
@@ -71,4 +67,4 @@ sudo vi /private/etc/hosts
 sudo apachectl graceful
 ```
 
-이제 해당 도메인으로 접속하면 아까 설정해둔 디렉토리로 호스팅된다.
+이제 해당 도메인으로 접속하면 아까 설정해둔 디렉토리로 호스팅되는 것을 볼 수 있다. 
