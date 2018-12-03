@@ -60,6 +60,5 @@
 &nbsp;
 
 ## Markdown 
-- [마크다운 문법 정리](./markdown/마크다운-문법-정리.md)
-
+- [깃허브 마크다운 문법 (GitHub Flavored Markdown)](./markdown/깃허브-마크다운-문법-(GitHub-Flavored-Markdown).md)
 
