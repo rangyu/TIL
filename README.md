@@ -10,6 +10,7 @@
 - [Bitnami](#bitnami)
 - [Mac](#mac)
 - [Wordpress](#wordpress)
+- [Ubuntu](#ubuntu)
 
 ---
 
@@ -33,4 +34,8 @@
 ## Wordpress
 - [워드프레스 현재 로그인 사용자가 관리자인지 확인하기](./wordpress/워드프레스-현재-로그인-사용자가-관리자인지-확인하기.md)
 - [워드프레스 주소창 URL에서 /wp 폴더명 없애기](./wordpress/워드프레스-주소창-URL에서-wp-폴더명-없애기.md)
+
+## Ubuntu
+- [SSH 로그인 접속 시 퍼미션 문제 (UNPROTECTED PRIVATE KEY FILE)](./ubuntu/SSH-로그인-접속-시-퍼미션 문제-(UNPROTECTED-PRIVATE-KEY-FILE).md)
+
 
