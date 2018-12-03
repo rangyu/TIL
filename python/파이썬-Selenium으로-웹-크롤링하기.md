@@ -35,18 +35,35 @@ options.add_argument('disable-gpu')
 driver = webdriver.Chrome('/Applications/chromedriver', options=options)
 
  ```
-## 5초간 기다린 후 URL에 접근하기
-인스타그램은 먼저 로고 이미지가 뜬 다음 내용 페이지로 바뀐다. 내용이 충분히 뜰 때까지 몇 초간 기다린 후 URL에 접근해서 페이지를 크롤링한다. 
+## 내용이 뜰 때까지 기다리기
+인스타그램은 먼저 로고 이미지가 뜬 다음 내용 페이지로 바뀐다. 제대로 내용을 크롤링하려면 로딩이 완료될 때까지 기다려야 한다.
+
+``implicitly_wait(sec)``를 사용하면 내용이 충분히 뜰 때까지 혹은 최대 지정한 시간(초)까지 기다린다. 
 
 ```Python	
-# 암시적으로 5초간 기다린다
+# 암시적으로 최대 5초간 기다린다
 driver.implicitly_wait(5)
+```
 
-# url에 접근한다
+(참고) 이때, ``implicitly_wait`` 함수는 오직 세션 당 1회만 실행된다.  만약 반복해서 시간 지연을 하고 싶다면 ``implicitly_wait(sec)``말고 ``time.sleep(sec)`` 함수를 사용하자.
+
+```
+import time
+
+# 5초간 대기한다
+time.sleep(3)
+```
+
+## URL 페이지 정보를 가져온다
+
+아래와 같이 해당 URL의 페이지에 접속할 수 있다.
+
+```Python
+# url에 접속한다
 driver.get(url)
- ```
-## 게시물 값을 가져온다
-인스타그램의 태그 게시물 개수는 ``<span ="g47SY">``안에 표시된다. ``find_element_by_class_name()`` 함수를 사용하면 클래스 이름으로 값을 가져올 수 있다.  
+```
+
+인스타그램의 태그 게시물 개수는 ``<span ="g47SY">``안에 표시된다. ``find_element_by_class_name()`` 함수를 사용하면 클래스 ``name``으로 값을 가져올 수 있다.  
 
 ```Python
 # 게시물 개수를 가져온다
@@ -73,7 +90,7 @@ options.add_argument('headless')
 options.add_argument('disable-gpu')	
 driver = webdriver.Chrome('/Applications/chromedriver', options=options)	
 
-# 암시적으로 5초간 기다린다
+# 암시적으로 최대 5초간 기다린다
 driver.implicitly_wait(5)
 
 # url에 접근한다
