@@ -24,9 +24,11 @@
 
 ## Highchart
 - [Highchart로 그라데이션 막대 그래프 만들기](./highchart/Highchart로-그라데이션-막대-그래프-만들기.md)
-
+ 
 ## Bitnami
 - [비트나미 워드프레스에 Let’s Encrypt 인증서 설치하기](./bitnami/비트나미-워드프레스에-Letsencrypt-인증서-설치하기.md)
+- [비트나미 워드프레스의 Let's Encrypt 인증서 자동 갱신하기](./bitnami/비트나미-워드프레스의-LetsEncrypt-인증서-자동-갱신하기.md)
+- [비트나미 워드프레스 배너 비활성화 하는 방법](./bitnami/비트나미-워드프레스-배너-비활성화-하는-방법.md)
 
 ## Mac
 - [Mac에서 가상 호스트 (VirtualHost) 설정하기](./mac/Mac에서-가상-호스트-VirtualHost-설정하기.md)
