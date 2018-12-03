@@ -14,18 +14,21 @@ pip install selenium
 
 ## 크롬드라이버 설치하기
 
-Selenium은 기본적으로 파이어폭스 드라이버가 설치되어 있다. 만약 크롬 브라우저를 사용하고 싶다면 먼저 크롬 드라이버를 설치해야 한다. 아래 사이트에서 크롬 드라이버를 설치할 수 있다.	
-https://sites.google.com/a/chromium.org/chromedriver/downloads	
+Selenium은 기본적으로 파이어폭스 드라이버가 설치되어 있다. 만약 크롬 브라우저를 사용하고 싶다면 먼저 크롬 드라이버를 설치해야 한다. 
+- 크롬 드라이버 다운로드 받기 : https://sites.google.com/a/chromium.org/chromedriver/downloads	
 
+다음과 같이 크롬 드라이버를 사용한다.
  ```Python	
 # 크롬 드라이버를 사용한다	
 driver = webdriver.Chrome('/Applications/chromedriver')	
- ```
-위와 같이 크롬 드라이버를 사용할 수 있다. '/Applications/chromedriver' 부분에는 자신이 크롬 드라이버를 설치한 경로를 입력하면 된다.
+```
+``/Applications/chromedriver`` 부분에는 크롬 드라이버를 설치한 경로를 입력한다.
+
+ 
 
 ## 크롬창을 띄우지 않는 옵션 넣기 (headless)	
 
-Selenium의 웹 드라이버를 사용하면 크롬창이 새로 뜬 다음 해당 페이지를 크롤링한다. 이때 크롬 창을 띄우지 않길 원한다면 다음과 같은 ``headless`` 옵션을 추가할 수 있다.	
+Selenium의 웹 드라이버를 사용하면 크롬창이 새로 뜬 다음 해당 페이지를 크롤링한다. 만약 크롬 창을 띄우지 않길 원한다면 ``headless`` 옵션을 추가하면 된다.
 
  ```Python	
 # 크롬창을 띄우지 않는 옵션을 넣는다	
@@ -33,8 +36,7 @@ options = webdriver.ChromeOptions()
 options.add_argument('headless')	
 options.add_argument('disable-gpu')	
 driver = webdriver.Chrome('/Applications/chromedriver', options=options)
-
- ```
+```
 ## 내용이 뜰 때까지 기다리기
 인스타그램은 먼저 로고 이미지가 뜬 다음 내용 페이지로 바뀐다. 제대로 내용을 크롤링하려면 로딩이 완료될 때까지 기다려야 한다.
 
@@ -47,9 +49,8 @@ driver.implicitly_wait(5)
 
 (참고) 이때, ``implicitly_wait()`` 함수는 오직 세션 당 1회만 실행된다.  만약 반복해서 시간 지연을 하고 싶다면 ``implicitly_wait()``말고 ``time.sleep()`` 함수를 사용하자.
 
-```
+```Python
 import time
-
 # 5초간 대기한다
 time.sleep(5)
 ```
