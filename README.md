@@ -42,7 +42,7 @@
 
 ## Ubuntu
 - [SSH 로그인 접속 시 퍼미션 문제 (UNPROTECTED PRIVATE KEY FILE)](./ubuntu/SSH-로그인-접속-시-퍼미션-문제-UNPROTECTED-PRIVATE-KEY-FILE.md)
-
+- [터미널 입력 시 파일명에 공백이 있을 경우 문제](./ubuntu/터미널-입력-시-파일명에-공백이-있을-경우-문제.md)
 
 ## Markdown 
 - [깃허브 마크다운 문법 (GitHub Flavored Markdown)](./markdown/깃허브-마크다운-문법-(GitHub-Flavored-Markdown).md)
