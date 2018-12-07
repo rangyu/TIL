@@ -1,7 +1,7 @@
 # TIL
 오늘 내가 배운 것 (Today I Learned)
 
-현재까지 총 20개의 TIL을 작성함. 
+현재까지 총 21개의 TIL을 작성함. 
 
 ## 카테고리
 - [Git](#git)
@@ -27,6 +27,7 @@
 - [파이썬 MySQL 연동하기](./python/파이썬-MySQL-연동하기.md)
 - [파이썬 fake-useragent 사용법](./python/파이썬-fake-useragent-사용법.md)
 - [파이썬 BeautifulSoup으로 HTML 파싱하기](./python/파이썬-BeautifulSoup으로-HTML-파싱하기.md)
+- [파이썬 Random 난수 생성](./python/파이썬-Random-난수-생성.md)
 
 ## Highchart
 - [Highchart로 그라데이션 막대 그래프 만들기](./highchart/Highchart로-그라데이션-막대-그래프-만들기.md)
