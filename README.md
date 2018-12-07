@@ -14,6 +14,7 @@
 - [Markdown](#markdown)
 - [CSS](#css)
 - [VSCode](#vscode)
+- [Cordova](#cordova)
 
 ---
 
@@ -57,3 +58,6 @@
 
 ## VSCode
 - [VSCode에서 SFTP 사용하는 방법](./vscode/VSCode에서-SFTP-사용하는-방법.md)
+
+## Cordova
+- [Cordova 작업환경 구축하기 (Mac 기준)](./cordova/Cordova-작업환경-구축하기-mac-기준.md)
