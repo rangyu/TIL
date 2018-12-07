@@ -103,4 +103,8 @@ totalCount = driver.find_element_by_class_name('g47SY').text
 
 # 게시물 개수를 출력한다
 print("totalCount :", totalCount)	
+
+# 열어둔 webdriver를 종료한다 
+# (종료하지 않고 반복 실행하면 메모리 누수의 원인이 된다)
+driver.quit()
  ```
