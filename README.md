@@ -23,6 +23,7 @@
 - [파이썬 Selenium으로 웹 크롤링하기](./python/파이썬-Selenium으로-웹-크롤링하기.md)
 - [파이썬 MySQL 연동하기](./python/파이썬-MySQL-연동하기.md)
 - [파이썬 fake-useragent 사용법](./python/파이썬-fake-useragent-사용법.md)
+- [파이썬 BeautifulSoup으로 HTML 파싱하기](./python/파이썬-BeautifulSoup으로-HTML-파싱하기.md)
 
 ## Highchart
 - [Highchart로 그라데이션 막대 그래프 만들기](./highchart/Highchart로-그라데이션-막대-그래프-만들기.md)
