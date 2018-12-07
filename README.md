@@ -11,6 +11,7 @@
 - [Ubuntu](#ubuntu)
 - [Markdown](#markdown)
 - [CSS](#css)
+- [VSCode](#vscode)
 
 ---
 
@@ -50,3 +51,6 @@
 ## CSS
 - [CSS Float를 Clear하는 방법 (Clearfix)](./css/CSS-Float를-Clear하는-방법-Clearfix.md)
 - [CSS 이미지 하단에 여백이 생기는 문제](./css/CSS-이미지-하단에-여백이-생기는-문제.md)
+
+## VSCode
+- [VSCode에서 SFTP 사용하는 방법](./vscode/VSCode에서-SFTP-사용하는-방법.md)
