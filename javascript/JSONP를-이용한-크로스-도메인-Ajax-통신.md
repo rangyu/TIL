@@ -32,13 +32,13 @@ $.getJSON(url + "?callback=?", data, callback);
 
 ## 서버 측에서의 처리
 
-JSONP 방법을 사용하려면 서버 측에서도 해당 처리가 필요하다. 
+JSONP 방법을 사용하려면 서버 측에서도 해당 처리가 필요하다. 만약 기존의 JSON 타입으로 응답하면 다음과 같은 Syntax 에러가 난다.
 
 ```
 Uncaught SyntaxError: Unexpected token :
 ```
 
-만약 기존과 같은 JSON 타입으로 출력하면 위와 같은 Syntax 에러가 난다. JSONP 방법을 사용하려면 서버 측에서는 JSON 데이터를 Callback 함수 형태로 출력해야 한다.
+따라서 JSONP 방법을 사용하려면 서버 측에서는 JSON 데이터를 Callback 함수 형태로 응답해야 한다.
 
 예를 들면 다음과 같다. (이때 `myCallback` 부분은 클라이언트에서 호출한 Callback과 동일하게 바꿔주면 된다.)
 
