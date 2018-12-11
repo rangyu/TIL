@@ -42,6 +42,7 @@
 - [Mac에서 가상 호스트 (VirtualHost) 설정하기](./mac/Mac에서-가상-호스트-VirtualHost-설정하기.md)
 - [Mac에서 크롬 브라우저 Cookie 파일 위치](./mac/Mac에서-크롬-브라우저-cookie-저장-경로.md)
 - [Mac에서 PHP 사용하기 (Apache 설정)](./mac/Mac에서-PHP-사용하기-(Apache-설정).md)
+- [Mac OS 업데이트 후의 Git 에러 해결법](./mac/Mac-OS-업데이트-후의-Git-에러-해결법.md)
 
 ## Wordpress
 - [워드프레스 현재 로그인 사용자가 관리자인지 확인하기](./wordpress/워드프레스-현재-로그인-사용자가-관리자인지-확인하기.md)
