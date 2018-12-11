@@ -16,7 +16,7 @@
 - [VSCode](#vscode)
 - [Cordova](#cordova)
 - [Javascript](#javascript)
-
+- [MySQL](#mysql)
 ---
 
 ## Git
@@ -48,7 +48,6 @@
 - [워드프레스 현재 로그인 사용자가 관리자인지 확인하기](./wordpress/워드프레스-현재-로그인-사용자가-관리자인지-확인하기.md)
 - [워드프레스 주소창 URL에서 /wp 폴더명 없애기](./wordpress/워드프레스-주소창-URL에서-wp-폴더명-없애기.md)
 
-
 ## Ubuntu
 - [SSH 로그인 접속 시 퍼미션 문제 (UNPROTECTED PRIVATE KEY FILE)](./ubuntu/SSH-로그인-접속-시-퍼미션-문제-UNPROTECTED-PRIVATE-KEY-FILE.md)
 - [터미널 입력 시 파일명에 공백이 있을 경우 문제](./ubuntu/터미널-입력-시-파일명에-공백이-있을-경우-문제.md)
@@ -68,3 +67,6 @@
 
 ## Javascript
 - [JSONP를 이용한 크로스 도메인 Ajax 통신](./javascript/JSONP를-이용한-크로스-도메인-Ajax-통신.md)
+
+## MySQL
+- [phpMyAdmin 암호화 문자열(blowfish_secret) 경고문 해결법](./mysql/phpMyAdmin-암호화-문자열(blowfish_secret)-경고문-해결법.md)
