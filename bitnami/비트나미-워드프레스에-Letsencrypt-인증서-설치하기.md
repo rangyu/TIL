@@ -87,7 +87,7 @@ RewriteRule ^/(.*) https://%{SERVER_NAME}/$1 [R,L]
 
 비트나미 서비스를 재시작한다.
 ```bash
-sudo /opt/bitnami/ctlscript.sh start
+sudo /opt/bitnami/ctlscript.sh restart
 ```
 
 이후부터 http로 접속 시 자동으로 https로 변경된다. 
