@@ -1,13 +1,12 @@
 #  Mailchimp 파이썬 API 사용하기
 
-파이썬 기반의 Mailchimp API를 사용하는 법에 대해 알아보자. 이 글에서는 `charlesthk/python-mailchimp` 라이브러리를 사용하였다. 
-(MailChimp API v3 기반)
-
-- 깃허브 문서 : https://github.com/charlesthk/python-mailchimp
+파이썬 기반의 Mailchimp API를 사용하는 법에 대해 알아보자. 
 
 ## 설치하기
 
-pip를 이용해서 다음과 같이 설치한다.
+이 글에서는 `charlesthk/python-mailchimp` 라이브러리를 사용하였다. (MailChimp API v3 기반)
+
+pip를 이용해서 설치한다. 
 
 ```
 pip install mailchimp3
@@ -127,3 +126,7 @@ MailChimp
 +- Templates
    +- Default Content
 ```
+
+자세한 가이드는 아래 깃허브 공식문서를 참고하자.
+
+- 깃허브 문서 : https://github.com/charlesthk/python-mailchimp
