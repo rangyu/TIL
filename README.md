@@ -34,6 +34,7 @@
 - [파이썬 Random 난수 생성](./python/파이썬-Random-난수-생성.md)
 - [파이썬 Flask 시작하기 (Hello, World!)](./python/파이썬-Flask-시작하기-(Hello-World).md)
 - [파이썬 md5 해시값 구하기](./python/파이썬-md5-해시값-구하기.md)
+- [파이썬 JSON 예쁘게 출력하기 (pprint)](./python/파이썬-JSON-예쁘게-출력하기-(pprint).md)
 
 ## Highchart
 - [Highchart로 그라데이션 막대 그래프 만들기](./highchart/Highchart로-그라데이션-막대-그래프-만들기.md)
