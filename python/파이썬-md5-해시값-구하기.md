@@ -12,6 +12,8 @@ md5hash = hashlib.md5(string.encode('utf-8')).hexdigest()
 print(md5hash)
 ```
 
+## 출력 결과
+
 출력하면 다음과 같이 md5 해시값으로 변환된 것을 볼 수 있다.
 
 ```
