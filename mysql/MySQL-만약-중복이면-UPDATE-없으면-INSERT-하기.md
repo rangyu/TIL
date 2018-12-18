@@ -1,4 +1,4 @@
-# MySQL 만약 키 값이 있으면 UPDATE 없으면 INSERT 하기
+# MySQL 만약 중복이면 UPDATE 없으면 INSERT 하기
 
 만약 키 값이 있으면 UPDATE문을 수정하고 없으면 INSERT문을 수행하길 원한다면 `INSERT ON DUPLICATE KEY UPDATE` 쿼리를 사용하면 된다. 
 
