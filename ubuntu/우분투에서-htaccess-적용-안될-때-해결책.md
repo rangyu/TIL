@@ -55,8 +55,7 @@ sudo ln -s /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/re
 sudo service apache2 restart
 ```
 
-
-## 더 간단한 방법
+### 더 간단한 방법
 
 위와 같이 직접 링크를 생성하지 않고도 더 간단한 방법도 있다. 
 
@@ -67,3 +66,17 @@ sudo a2enmod rewrite
 위와 같은 명령어를 입력하면 된다. 그러면 자동으로 `rewrite` 모듈이 활성화된다. 
 
 
+## AllowOverride On
+
+만약 `rewrite` 모듈이 활성화되었는데도, `.htaccess` 파일이 동작하지 않는다면, 
+`apache2.conf` 파일에 `AllowOverride None`을 `AllowOverride All`로 변경한다. 
+
+환경파일에서 아래의 내용을 추가한다.
+
+```
+<Directory /www/htdocs/example>
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
+```
