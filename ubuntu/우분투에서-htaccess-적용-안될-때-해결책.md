@@ -22,7 +22,7 @@ Array ( [0] => core [1] => mod_so [2] => mod_watchdog [3] => http_core [4] => mo
 
 ## 아파치 설치 경로 찾기
 
-다음과 같이 아파치 설치 경로 확인하자.
+다음과 같이 아파치 설치 경로 확인할 수 있다.
 
 ```bash
 apache2 -V | egrep "(HTTPD\_ROOT|SERVER\_CONFIG\_FILE)"
@@ -68,10 +68,10 @@ sudo a2enmod rewrite
 
 ## AllowOverride On
 
-만약 `rewrite` 모듈이 활성화되었는데도, `.htaccess` 파일이 동작하지 않는다면, 
-`apache2.conf` 파일에 `AllowOverride None`을 `AllowOverride All`로 변경한다. 
+만약 `rewrite` 모듈이 활성화되었는데도 적용이 안된다면
+ `AllowOverride All`을 추가한다.
 
-환경파일에서 아래의 내용을 추가한다.
+환경파일에서 아래와 같이 수정하면 된다. 
 
 ```
 <Directory /www/htdocs/example>
