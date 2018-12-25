@@ -84,6 +84,7 @@
 
 ## PHP
 - [mysqli 사용이 안될 때 php.ini 설정법](./php/mysqli-사용이-안될-때-php.ini-설정법.md)
+- [PHP 웹사이트 URL 가져오기](./php/PHP-웹사이트-URL-가져오기.md)
 
 ## Mailchimp
 - [Mailchimp 파이썬 API 사용하기](./mailchimp/Mailchimp-파이썬-API-사용하기.md)
