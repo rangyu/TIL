@@ -1,7 +1,7 @@
 # TIL
 오늘 내가 배운 것 (Today I Learned)
 
-현재까지 총 37개의 TIL을 작성함. 
+현재까지 총 39개의 TIL을 작성함. 
 
 ## 카테고리
 - [Git](#git)
@@ -85,6 +85,7 @@
 ## PHP
 - [mysqli 사용이 안될 때 php.ini 설정법](./php/mysqli-사용이-안될-때-php.ini-설정법.md)
 - [PHP 웹사이트 URL 가져오기](./php/PHP-웹사이트-URL-가져오기.md)
+- [PHP 숫자 천 단위 마다 쉼표 찍기](./php/PHP-숫자-천-단위-마다-쉼표-찍기.md)
 
 ## Mailchimp
 - [Mailchimp 파이썬 API 사용하기](./mailchimp/Mailchimp-파이썬-API-사용하기.md)
