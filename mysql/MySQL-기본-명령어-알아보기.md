@@ -47,7 +47,7 @@ mysql> use 데이터베이스명;
 
 선택된 데이터베이스 목록 보기
 ```mysql
-mysql> SELECT database();
+mysql> select database();
 ```
 
 새로운 데이터베이스 생성하기
