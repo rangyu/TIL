@@ -12,7 +12,7 @@ mysql  Ver 14.14 Distrib 5.7.19, for osx10.12 (x86_64) using  EditLine wrapper
 
 ## MySQL 로그인
 
-접속 명령어는 다음과 같다. 
+다음 같이 MySQL에 접속할 수 있다. 호스트명(-h)을 생략하면 자동으로 localhost로 접속한다. 
 
 ```
 $ mysql -u 사용자명 -p
