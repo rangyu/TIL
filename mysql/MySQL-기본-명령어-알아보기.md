@@ -16,7 +16,15 @@ mysql  Ver 14.14 Distrib 5.7.19, for osx10.12 (x86_64) using  EditLine wrapper
 
 ```bash
 $ mysql -u 사용자명 -p
+```
+
+접속할 호스트명 정하기 
+```bash
 $ mysql -h 호스트명 -u 사용자명 -p
+```
+
+사용할 데이터베이스 선택하기 
+```bash
 $ mysql -u 사용자명 -p 데이터베이스명
 ```
 
@@ -40,4 +48,9 @@ mysql> SELECT database();
 새로운 데이터베이스 생성하기
 ```mysql
 mysql> create database 데이터베이스명
+```
+
+데이터베이스 삭제하기
+```
+mysql> drop database 데이터베이스명
 ```
