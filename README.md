@@ -81,6 +81,7 @@
 - [phpMyAdmin 암호화 문자열(blowfish_secret) 경고문 해결법](./mysql/phpMyAdmin-암호화-문자열(blowfish_secret)-경고문-해결법.md)
 - [MySQL 만약 중복이면 UPDATE 없으면 INSERT 하기](./mysql/MySQL-만약-중복이면-UPDATE-없으면-INSERT-하기.md)
 - [MySQL에 이모지(Emoji)를 넣으려면?⛱](./mysql/MySQL에-이모지(Emoji)를-넣으려면.md)
+- [MySQL 기본 명령어 알아보기](./mysql/MySQL-기본-명령어-알아보기.md)
 
 ## PHP
 - [mysqli 사용이 안될 때 php.ini 설정법](./php/mysqli-사용이-안될-때-php.ini-설정법.md)
