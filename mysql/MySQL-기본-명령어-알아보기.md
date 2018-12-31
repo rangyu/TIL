@@ -52,10 +52,10 @@ mysql> select database();
 
 새로운 데이터베이스 생성하기
 ```
-mysql> create database 데이터베이스명
+mysql> create database 데이터베이스명;
 ```
 
 데이터베이스 삭제하기
 ```
-mysql> drop database 데이터베이스명
+mysql> drop database 데이터베이스명;
 ```
