@@ -29,8 +29,8 @@ $ mysql -u 사용자명 -p 데이터베이스명
 ```
 
 접속 종료하기 
-```bash
-mysqㅣ> exit;
+```mysql
+mysql> exit;
 ```
 
 ## 데이터베이스 명령어
