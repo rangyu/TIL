@@ -1,6 +1,8 @@
 # Mac에서 Docker 설치하기
 
-이 글에서는 Mac에서 Docker를 설치하는 방법을 알아보고자 한다. (더 자세한 내용은 [Docker 공식 문서](https://docs.docker.com/get-started/)를 참고하자)
+이 글에서는 Mac에서 Docker를 설치하는 방법을 알아보고자 한다. 
+
+(더 자세한 내용은 [Docker 공식 문서](https://docs.docker.com/docker-for-mac/#explore-the-application)를 참고하자.)
 
 ## 홈브류(homebrew)로 설치하기
 
