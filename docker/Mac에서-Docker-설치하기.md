@@ -17,11 +17,12 @@ https://docs.docker.com/docker-for-mac/install/
 
 다운받은 어플리케이션을 설치한다.
 
-![docker1](https://user-images.githubusercontent.com/36276682/50847373-c912bc00-13b4-11e9-8d56-eefe56bcabf8.png)
+<img width="713" alt="docker1" src="https://user-images.githubusercontent.com/36276682/50847373-c912bc00-13b4-11e9-8d56-eefe56bcabf8.png">
+
 
 실행하면 다음과 같이 백그라운드에서 docker가 실행된다.
 
-![docker2](https://user-images.githubusercontent.com/36276682/50847384-cd3ed980-13b4-11e9-96da-4d8c3b9f7def.png)
+<img width="248" alt="docker2" src="https://user-images.githubusercontent.com/36276682/50847384-cd3ed980-13b4-11e9-96da-4d8c3b9f7def.png">
 
 ## Docker 버전 확인
 
