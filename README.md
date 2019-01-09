@@ -1,7 +1,7 @@
 # TIL
 오늘 내가 배운 것 (Today I Learned)
 
-현재까지 총 49개의 TIL을 작성함. 
+현재까지 총 50개의 TIL을 작성함. 
 
 ## 카테고리
 - [Git](#git)
@@ -40,6 +40,7 @@
 
 ## Highchart
 - [Highchart로 그라데이션 막대 그래프 만들기](./highchart/Highchart로-그라데이션-막대-그래프-만들기.md)
+- [Higtchart 선 색깔을 그라데이션으로 칠하기](./highchart/Higtchart-선-색깔을-그라데이션으로-칠하기.md)
 
 ## Bitnami
 - [비트나미 워드프레스에 Let’s Encrypt 인증서 설치하기](./bitnami/비트나미-워드프레스에-Letsencrypt-인증서-설치하기.md)
