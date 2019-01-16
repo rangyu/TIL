@@ -66,6 +66,7 @@
 - [우분투에서 .htaccess 적용 안될 때 해결책](./ubuntu/우분투에서-htaccess-적용-안될-때-해결책.md)
 - [파일 및 폴더 퍼미션을 각각 755,644로 바꾸기](./ubuntu/파일-및-폴더-퍼미션을-각각-755,644로-바꾸기.md)
 - [SSH Key로 원격 로그인하기](./ubuntu/SSH-Key로-원격-로그인하기.md)
+- [vi 에디터에서 맨위 맨아래 한번에 이동하기](./ubuntu/vi-에디터에서-맨위-맨아래-한번에-이동하기.md)
 
 ## Markdown 
 - [깃허브 마크다운 문법 (GitHub Flavored Markdown)](./markdown/깃허브-마크다운-문법-(GitHub-Flavored-Markdown).md)
