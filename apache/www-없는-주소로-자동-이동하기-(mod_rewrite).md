@@ -21,7 +21,7 @@ RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
 ```
 
-## www 붙이기
+## (참고) www 붙이기
 
 먄약 이와 반대로 하고 싶다면(www를 붙인 도메인을 사용하고 싶다면) 다음과 같이 작성한다. 
 mysite.com -> www.mysite.com 
