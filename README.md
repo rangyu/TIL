@@ -114,4 +114,4 @@
 
 ## Apache
 - [www 없는 주소로 자동 이동하기 (mod_rewrite)](./apache/www-없는-주소로-자동-이동하기-(mod_rewrite).md)
-- [서브도메인을 특정 폴더와 연동하기 (mod_rewrite)](./apache/서브도메인을-웹호스팅-폴더별-연동하기-(mod_rewrite).md)
+- [서브도메인을 특정 폴더와 연동하기 (mod_rewrite)](./apache/서브도메인을-특정-폴더와-연동하기-(mod_rewrite).md)
