@@ -1,7 +1,7 @@
 # TIL
 오늘 내가 배운 것 (Today I Learned)
 
-현재까지 총 54개의 TIL을 작성함. 
+현재까지 총 55개의 TIL을 작성함. 
 
 ## 카테고리
 - [Git](#git)
@@ -77,6 +77,7 @@
 - [CSS 이미지 하단에 여백이 생기는 문제](./css/CSS-이미지-하단에-여백이-생기는-문제.md)
 - [CSS 연결자(Combinator) 알아보기](./css/CSS-연결자(Combinator)-알아보기.md)
 - [CSS 이미지 선택 시 하이라이트 없애기](./css/CSS-이미지-선택-시-하이라이트-없애기.md)
+- [CSS 스크롤바 안보이게 (스크롤은 가능하게끔)](./css/CSS-스크롤바-안보이게-(스크롤은-가능하게끔).md)
 
 ## VSCode
 - [VSCode에서 SFTP 사용하는 방법](./vscode/VSCode에서-SFTP-사용하는-방법.md)
