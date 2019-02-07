@@ -1,7 +1,7 @@
 # TIL
 오늘 내가 배운 것 (Today I Learned)
 
-현재까지 총 65개의 TIL을 작성함. 
+현재까지 총 66개의 TIL을 작성함. 
 
 ## 카테고리
 - [Git](#git)
@@ -98,6 +98,7 @@
 - [MySQL에 이모지(Emoji)를 넣으려면?⛱](./mysql/MySQL에-이모지(Emoji)를-넣으려면.md)
 - [MySQL 기본 명령어 알아보기](./mysql/MySQL-기본-명령어-알아보기.md)
 - [MySQL 파일에 있는 SQL 쿼리 실행하기](./mysql/MySQL-파일에-있는-SQL-쿼리-실행하기.md)
+- [MySQL caching_sha2_password 에러 해결책](./mysql/MySQL-caching_sha2_password-에러-해결책.md)
 
 ## PHP
 - [mysqli 사용이 안될 때 php.ini 설정법](./php/mysqli-사용이-안될-때-php.ini-설정법.md)
