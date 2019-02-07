@@ -1,7 +1,7 @@
 # MySQL caching_sha2_password 에러 해결책
 
 ## 에러
-
+ 
 ```
 error: mysqli_connect(): The server requested authentication method unknown to the client [caching_sha2_password] 
 ```
@@ -21,7 +21,7 @@ ALTER USER 'yourUserName'@'localhost' IDENTIFIED WITH mysql_native_password BY '
 
 #### 신규 사용자 생성
 ```sql
- CREATE USER 'yourUserName'@'localhost' IDENTIFIED WITH mysql_native_password BY '비밀번호';
+CREATE USER 'yourUserName'@'localhost' IDENTIFIED WITH mysql_native_password BY '비밀번호';
 
 ```
 
