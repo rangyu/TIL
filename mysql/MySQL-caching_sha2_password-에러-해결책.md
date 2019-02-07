@@ -1,7 +1,7 @@
 # MySQL caching_sha2_password 에러 해결책
 
 ## 에러
- 
+
 ```
 error: mysqli_connect(): The server requested authentication method unknown to the client [caching_sha2_password] 
 ```
