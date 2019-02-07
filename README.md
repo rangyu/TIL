@@ -39,6 +39,7 @@
 - [파이썬 Flask 시작하기 (Hello, World!)](./python/파이썬-Flask-시작하기-(Hello-World).md)
 - [파이썬 md5 해시값 구하기](./python/파이썬-md5-해시값-구하기.md)
 - [파이썬 JSON 예쁘게 출력하기 (pprint)](./python/파이썬-JSON-예쁘게-출력하기-(pprint).md)
+- [파이썬 html 들여쓰기 자동으로 넣기](./python/파이썬-html-들여쓰기-자동으로-넣기.md)
 
 ## Highchart
 - [Highchart로 그라데이션 막대 그래프 만들기](./highchart/Highchart로-그라데이션-막대-그래프-만들기.md)
@@ -102,10 +103,10 @@
 - [PHP 숫자 천 단위 마다 쉼표 찍기](./php/PHP-숫자-천-단위-마다-쉼표-찍기.md)
 - [PHP 두 날짜의 차이(day) 구하기](./php/PHP-두-날짜의-차이(day)-구하기.md)
 - [PHP 헤더를 이용한 페이지 이동(Redirect)](./php/PHP-헤더를-이용한-페이지-이동(Redirect).md)
-- [PHP URL의 파일명 부분만 가져오기](/php/PHP-URL의-파일명-부분만-가져오기.md)
-- [PHP, echo할 때 개행문자 넣기(줄바뀜 처리)](/php/PHP-echo할-때-개행문자-넣기(줄바뀜-처리).md)
-- [PHP, include 할 때 params 보내기](/php/PHP-include-할-때-params-보내기.md)
-- [PHP, Undefined index 에러 해결법](/php/PHP-Undefined-index-에러-해결법.md)
+- [PHP URL의 파일명 부분만 가져오기](./php/PHP-URL의-파일명-부분만-가져오기.md)
+- [PHP echo할 때 개행문자 넣기(줄바뀜 처리)](./php/PHP-echo할-때-개행문자-넣기(줄바뀜-처리).md)
+- [PHP include 할 때 params 보내기](./php/PHP-include-할-때-params-보내기.md)
+- [PHP Undefined index 에러 해결법](./php/PHP-Undefined-index-에러-해결법.md)
 
 ## Mailchimp
 - [Mailchimp 파이썬 API 사용하기](./mailchimp/Mailchimp-파이썬-API-사용하기.md)
