@@ -105,6 +105,7 @@
 - [PHP URL의 파일명 부분만 가져오기](/php/PHP-URL의-파일명-부분만-가져오기.md)
 - [PHP, echo할 때 개행문자 넣기(줄바뀜 처리)](/php/PHP-echo할-때-개행문자-넣기(줄바뀜-처리).md)
 - [PHP, include 할 때 params 보내기](/php/PHP-include-할-때-params-보내기.md)
+- [PHP, Undefined index 에러 해결법](/php/PHP-Undefined-index-에러-해결법.md)
 
 ## Mailchimp
 - [Mailchimp 파이썬 API 사용하기](./mailchimp/Mailchimp-파이썬-API-사용하기.md)
