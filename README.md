@@ -1,7 +1,7 @@
 # TIL
 오늘 내가 배운 것 (Today I Learned)
 
-현재까지 총 62개의 TIL을 작성함. 
+현재까지 총 63개의 TIL을 작성함. 
 
 ## 카테고리
 - [Git](#git)
@@ -40,6 +40,7 @@
 - [파이썬 md5 해시값 구하기](./python/파이썬-md5-해시값-구하기.md)
 - [파이썬 JSON 예쁘게 출력하기 (pprint)](./python/파이썬-JSON-예쁘게-출력하기-(pprint).md)
 - [파이썬 html 들여쓰기 자동으로 넣기](./python/파이썬-html-들여쓰기-자동으로-넣기.md)
+- [파이썬 변수에 개행문자 포함한 긴문자열 쉽게 넣는 법](./python/파이썬-변수에-개행문자-포함한-긴문자열-쉽게-넣는-법.md)
 
 ## Highchart
 - [Highchart로 그라데이션 막대 그래프 만들기](./highchart/Highchart로-그라데이션-막대-그래프-만들기.md)
