@@ -1,7 +1,7 @@
 # TIL
 오늘 내가 배운 것 (Today I Learned)
 
-현재까지 총 64개의 TIL을 작성함. 
+현재까지 총 65개의 TIL을 작성함. 
 
 ## 카테고리
 - [Git](#git)
@@ -84,6 +84,7 @@
 
 ## VSCode
 - [VSCode에서 SFTP 사용하는 방법](./vscode/VSCode에서-SFTP-사용하는-방법.md)
+- [VSCode 소스코드 자동정렬 단축키](./vscode/VSCode-소스코드-자동정렬-단축키.md)
 
 ## Cordova
 - [Cordova 작업환경 구축하기 (Mac 기준)](./cordova/Cordova-작업환경-구축하기-mac-기준.md)
