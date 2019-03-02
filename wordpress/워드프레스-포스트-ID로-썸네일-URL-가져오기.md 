@@ -1,0 +1,8 @@
+# 워드프레스 포스트 ID로 썸네일 URL 가져오기
+
+```php
+<?php 
+    $img = get_the_post_thumbnail_url( get_the_ID() ,'post-thumbnail' );
+    echo '<img src="'.$img.'">';  
+?>
+```

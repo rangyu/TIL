@@ -1,7 +1,7 @@
 # TIL
 오늘 내가 배운 것 (Today I Learned)
 
-현재까지 총 66개의 TIL을 작성함. 
+현재까지 총 69개의 TIL을 작성함. 
 
 ## 카테고리
 - [Git](#git)
@@ -64,6 +64,7 @@
 - [워드프레스 현재 로그인 사용자가 관리자인지 확인하기](./wordpress/워드프레스-현재-로그인-사용자가-관리자인지-확인하기.md)
 - [워드프레스 주소창 URL에서 /wp 폴더명 없애기](./wordpress/워드프레스-주소창-URL에서-wp-폴더명-없애기.md)
 - [워드프레스 FTP 인증 오류날 때 해결법](./wordpress/워드프레스-FTP-인증-오류날-때-해결법.md)
+- [워드프레스 포스트 ID로 썸네일 URL 가져오기](./wordpress/워드프레스-포스트-ID로-썸네일-URL-가져오기.md)
 
 ## Ubuntu
 - [SSH 로그인 접속 시 퍼미션 문제 (UNPROTECTED PRIVATE KEY FILE)](./ubuntu/SSH-로그인-접속-시-퍼미션-문제-UNPROTECTED-PRIVATE-KEY-FILE.md)
