@@ -139,5 +139,4 @@
 
 ## Blockly
 - [Blockly workspace에 새로운 block 생성하기](./blockly/Blockly-workspace에-새로운-block-생성하기.md)
-
-
+- [Blockly 크롬 Uncaught (in promise) DOMException 에러 해결법](./blockly/Blockly-크롬-Uncaught-(in-promise)-DOMException-에러-해결법.md)
