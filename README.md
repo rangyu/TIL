@@ -1,8 +1,6 @@
 # TIL
 오늘 내가 배운 것 (Today I Learned)
 
-현재까지 총 69개의 TIL을 작성함. 
-
 ## 카테고리
 - [Git](#git)
 - [Python](#python)
@@ -24,6 +22,7 @@
 - [Apache](#apache)
 - [SVG](#svg)
 - [SemanticUI](#semanticui)
+- [Blockly](#blockly)
 
 ---
 
@@ -94,6 +93,7 @@
 
 ## Javascript
 - [JSONP를 이용한 크로스 도메인 Ajax 통신](./javascript/JSONP를-이용한-크로스-도메인-Ajax-통신.md)
+- [자바스크립트 변수에 문자열 여러 줄로 넣기](./javascript/자바스크립트-변수에-문자열-여러-줄로-넣기.md)
 
 ## MySQL
 - [phpMyAdmin 암호화 문자열(blowfish_secret) 경고문 해결법](./mysql/phpMyAdmin-암호화-문자열(blowfish_secret)-경고문-해결법.md)
@@ -136,5 +136,8 @@
 
 ## SemanticUI
 - [SemanticUI 파일 업로드 버튼 만들기](./semantic-ui/SemanticUI-파일-업로드-버튼-만들기.md)
+
+## Blockly
+- [Blockly workspace에 새로운 block 생성하기](./blockly/Blockly-workspace에-새로운-block-생성하기.md)
 
 
