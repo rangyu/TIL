@@ -94,6 +94,7 @@
 ## Javascript
 - [JSONP를 이용한 크로스 도메인 Ajax 통신](./javascript/JSONP를-이용한-크로스-도메인-Ajax-통신.md)
 - [자바스크립트 변수에 문자열 여러 줄로 넣기](./javascript/자바스크립트-변수에-문자열-여러-줄로-넣기.md)
+- [자바스크립트 부모 이벤트는 막고 자식만 이벤트 발생하도록 만들기](./javascript/자바스크립트-부모-이벤트는-막고-자식만-이벤트-발생하도록-만들기.md)
 
 ## MySQL
 - [phpMyAdmin 암호화 문자열(blowfish_secret) 경고문 해결법](./mysql/phpMyAdmin-암호화-문자열(blowfish_secret)-경고문-해결법.md)
