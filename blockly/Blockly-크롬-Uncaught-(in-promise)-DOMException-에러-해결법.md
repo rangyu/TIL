@@ -39,6 +39,7 @@ Blockly.WorkspaceAudio.prototype.preload = function() {
 ```
 
 ---
+Thank You, jonmersan!
 
 출처 : https://github.com/google/blockly/issues/299
 
