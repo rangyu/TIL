@@ -23,7 +23,7 @@ composer require phpoffice/phpspreadsheet
 require 'vendor/autoload.php';
 ```
 
-사용하고자 하는 PhpSpreadsheet 라이브러리를 불러온다. 
+사용하고자 하는 PhpSpreadsheet 라이브러리를 선언한다. 
 
 ```php
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
@@ -51,7 +51,7 @@ $writer->save('hello world.xlsx');
 
 ---
 
-## POST로 넘긴 엑셀 파일 읽기
+## Form에서 POST로 넘긴 엑셀 파일 읽기
 
 ```php
 <?php
