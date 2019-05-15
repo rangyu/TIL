@@ -101,7 +101,7 @@ mysql> select host, user, plugin, authentication_string, password_last_changed f
 
 ### Root 비밀번호 바꾸기 
 
-다음과 같은 쿼리를 날려서 플러그인과 함께 새로운 비밀번호를 설정해주자. 
+다음과 같이 플러그인과 함께 새로운 비밀번호를 설정해주자. 
 
 ```sql
 mysql> alter user 'root'@'localhost' identified with mysql_native_password by 'yourpassword';
@@ -115,3 +115,5 @@ mysql> flush privileges;
 ```bash
 mysql> exit;
 ```
+
+이후 MySQL 재시작하면 새로운 Root 비밀번호로 접속할 수 있다.
