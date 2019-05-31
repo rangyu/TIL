@@ -22,6 +22,8 @@ php.ini을 수정해서 Undefined index 에러를 띄우지 않도록 설정할 
 sudo vi /etc/php.ini
 ```
 
+### php.ini 수정하기
+
 에러 리포팅 설정을 찾는다.
 
 ```
@@ -43,7 +45,10 @@ error_reporting = E_ALL & ~E_DEPRECATED
 
 `~` 앞에 물결 표시를 붙이면 역을 뜻한다.
 
+### `~E_NOTICE` 붙이기
+
 즉 Undefined index 에러에 대해 로그를 표시하지 않으려면 `~E_NOTICE`를 뒤에 붙이면 된다.
+
 
 ```
 error_reporting = E_ALL & ~E_NOTICE
@@ -56,6 +61,8 @@ error_reporting = E_ALL & ~E_DEPRECATED & ~E_NOTICE
 ```
 
 이런 식으로 입력한다.
+
+### 아파치 재시작
 
 php.ini를 수정했다면 아파치를 재시작해서 변경사항을 적용한다.
 
