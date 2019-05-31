@@ -126,6 +126,7 @@
 - [PhpSpreadsheet을 이용한 엑셀 파일 읽기](./php/PhpSpreadsheet을-이용한-엑셀-파일-읽기.md)
 - [PhpSpreadsheet로 엑셀 파일 생성하기](./php/PhpSpreadsheet로-엑셀-파일-생성하기.md)
 - [PHP-DOMDocument-loadHTML-경고문-해결법](./php/PHP-DOMDocument-loadHTML-경고문-해결법.md)
+- [PHP 짧은 태그(short_open_tag) 허용하도록 설정하기](./php/PHP-짧은-태그(short_open_tag)-허용하도록-설정하는법.md)
 
 ## Mailchimp
 - [Mailchimp 파이썬 API 사용하기](./mailchimp/Mailchimp-파이썬-API-사용하기.md)
