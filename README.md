@@ -62,6 +62,7 @@
 - [Mac OS 업데이트 후의 Git 에러 해결법](./mac/Mac-OS-업데이트-후의-Git-에러-해결법.md)
 - [Mac에서 MySQL 연동 에러 (Error: Unable to connect to MySQL)](./mac/Mac에서-MySQL-연동-에러-(Error:-Unable-to-connect-to-MySQL).md)
 - [Mac에서 아파치 환경설정 파일 경로(httpd.conf)](./mac/Mac에서-아파치-환경설정-파일-경로(httpd.conf).md)
+- [Mac에서 아이콘 드래그 앤 드롭이 안 될 때 해결법](./mac/Mac에서-아이콘-드래그-앤-드롭이-안-될-때-해결법.md)
 
 ## Wordpress
 - [워드프레스 현재 로그인 사용자가 관리자인지 확인하기](./wordpress/워드프레스-현재-로그인-사용자가-관리자인지-확인하기.md)
