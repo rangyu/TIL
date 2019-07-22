@@ -39,9 +39,15 @@ sudo /opt/bitnami/ctlscript.sh stop
 
 설치한 lego 클라이언트를 이용해서 Let's Encrypt 인증서를 발급받는다.
 ```bash
-sudo lego --email="EMAIL-ADDRESS" --domains="DOMAIN" --domains="www.DOMAIN" --path="/etc/lego" run
+sudo lego --tls --email="EMAIL-ADDRESS" --domains="DOMAIN" --domains="www.DOMAIN" --path="/etc/lego" run
 ```
 domains 옵션을 사용했기 때문에 최소 2개 이상의 도메인을 입력해야 한다. mydomain.com과 www.mydomain.com를 포함한 2개 이상의 도메인을 모두 입력한다.
+
+```
+Do you accept the TOS? Y/n
+```
+
+`Y`를 눌러 동의하면 다음으로 진행된다.
 
 
 ## 아파치 환경설정 수정하기
