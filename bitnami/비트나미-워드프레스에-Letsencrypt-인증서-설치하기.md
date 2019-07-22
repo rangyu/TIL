@@ -9,7 +9,7 @@ Let’s Encrypt는 무료로 사용할 수 있는 SSL 인증서다. 이 글에�
 깃허브 저장소에서 Lego 최신 버전 다운받는다.
 ```bash
 cd /tmp
-curl -s https://api.github.com/repos/xenolf/lego/releases/latest | grep browser_download_url | grep linux_amd64 | cut -d '"' -f 4 | wget -i -
+curl -Ls https://api.github.com/repos/xenolf/lego/releases/latest | grep browser_download_url | grep linux_amd64 | cut -d '"' -f 4 | wget -i - tar xf lego_vX.Y.Z_linux_amd64.tar.gz
 ```
 
 다운받은 Lego 압축파일명을 확인한다.
