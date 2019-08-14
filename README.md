@@ -129,6 +129,7 @@
 - [PHP-DOMDocument-loadHTML-경고문-해결법](./php/PHP-DOMDocument-loadHTML-경고문-해결법.md)
 - [PHP 짧은 태그(short_open_tag) 허용하도록 설정하기](./php/PHP-짧은-태그(short_open_tag)-허용하도록-설정하기.md)
 - [PHP 최대 업로드 용량 늘리기](./php/PHP-최대-업로드-용량-늘리기.md)
+- [PhpSpreadsheet 셀 배경색 지정하기](./php/PhpSpreadsheet-셀-배경색-지정하기.md)
 
 ## Mailchimp
 - [Mailchimp 파이썬 API 사용하기](./mailchimp/Mailchimp-파이썬-API-사용하기.md)
