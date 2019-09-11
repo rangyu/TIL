@@ -6,6 +6,9 @@ INNER JOIN을 사용해서 델타값을 구했다.
 
 
 ```sql
-SELECT *, o.`count` - p.`p_count` as diff FROM `tablename` as o INNER JOIN (SELECT `count` as p_count, `wdate` as p_wdate FROM `tablename`) as p ON DATE(DATE_SUB(o.`wdate`, INTERVAL 1 DAY)) = DATE(p.`p_wdate`) ORDER BY `wdate` desc
+SELECT *, o.`count` - p.`p_count` as diff FROM `tablename` as o 
+INNER JOIN (SELECT `count` as p_count, `wdate` as p_wdate FROM `tablename`) as p 
+ON DATE(DATE_SUB(o.`wdate`, INTERVAL 1 DAY)) = DATE(p.`p_wdate`) 
+ORDER BY `wdate` desc
 ```
 
