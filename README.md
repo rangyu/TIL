@@ -112,7 +112,7 @@
 - [MySQL caching_sha2_password 에러 해결책](./mysql/MySQL-caching_sha2_password-에러-해결책.md)
 - [MySQL 완전 삭제하고 재설치하기 (MacOS)](./mysql/MySQL-완전-삭제하고-재설치하기-(MacOS).md)
 - [MySQL root 비밀번호 분실했을 때 재설정하기](./mysql/MySQL-root-비밀번호-분실했을-때-재설정하기.md)
-
+- [MySQL 델타값(변동량) 구하기 쿼리](./mysql/MySQL-델타값(변동량)-구하기-쿼리.md)
 
 ## PHP
 - [mysqli 사용이 안될 때 php.ini 설정법](./php/mysqli-사용이-안될-때-php.ini-설정법.md)
