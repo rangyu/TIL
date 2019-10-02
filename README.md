@@ -172,11 +172,11 @@
 - [Bash로 문자열 출력하기](./bash/Bash로-문자열-출력하기.md)
 
 ## NodeJSc
-[Node.js 최신 버전 설치하기](./node-js/Node-js-최신-버전-설치하기.md)
+- [Node.js 최신 버전 설치하기](./node-js/Node-js-최신-버전-설치하기.md)
 
 ## React
 - [React 빌드 후 리소스 경로 에러가 났을 경우 해결법](./react/React-빌드-후-리소스-경로-에러가-났을-경우-해결법.md)
 - [React-Router로 페이지 이동하기](./react/React-Router로-페이지-이동하기.md)
 
-## Glossary
-- [폴리시-표기법](./glossary/폴리시-표기법.md)
+<!-- ## Glossary
+- [폴리시-표기법](./glossary/폴리시-표기법.md) -->
