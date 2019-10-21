@@ -1,4 +1,4 @@
-# [React] Create-React-App로 리액트 시작하기 
+# Create-React-App로 리액트 시작하기 
 
 
 npx로 create-react-app 실행하기 (`my-app` 부분은 프로젝트명으로 바꾸기)

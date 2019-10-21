@@ -177,11 +177,9 @@
 ## React
 - [React 빌드 후 리소스 경로 에러가 났을 경우 해결법](./react/React-빌드-후-리소스-경로-에러가-났을-경우-해결법.md)
 - [React-Router로 페이지 이동하기](./react/React-Router로-페이지-이동하기.md)
-- [[React] Create-React-App로 리액트 시작하기](./react/Create-React-App로-리액트-시작하기.md)
+- [Create-React-App로 리액트 시작하기](./react/Create-React-App로-리액트-시작하기.md)
 - [React 개발자 도구 설치하기](./react/React-개발자-도구-설치하기.md)
 
 ## ReactNative
 - [Expo로 리액트 네이티브 시작하기](./react-native/Expo로-리액트-네이티브-시작하기.md)
-
-<!-- ## Glossary
-- [폴리시-표기법](./glossary/폴리시-표기법.md) -->
+- [Expo vs React-Native-CLI](./react-native/Expo-vs-React-Native-CLI.md)
