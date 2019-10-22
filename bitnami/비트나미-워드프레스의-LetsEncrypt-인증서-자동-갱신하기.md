@@ -10,7 +10,7 @@ Lego 클라이언트를 사용하여 Let's Encrypt 인증서를 갱신하는 방
 
 ```bash
 sudo /opt/bitnami/ctlscript.sh stop
-sudo lego --email="EMAIL-ADDRESS" --domains="DOMAIN" --path="/etc/lego" renew
+sudo lego --email="EMAIL-ADDRESS" --domains="DOMAIN" --path="/etc/lego" --http renew
 sudo /opt/bitnami/ctlscript.sh start
 ```
 
