@@ -20,7 +20,7 @@ render() {
 }
 ```
 
-## 짧은 Fragment 표기법
+## Fragment의 속성
 
 `<Fragment>` 컴포넌트를 import한 대신에 다음과 짧은 표기법을 사용할 수도 있다. 
 
