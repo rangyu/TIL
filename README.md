@@ -28,7 +28,7 @@
 - [NodeJS](#nodejs)
 - [React](#react)
 - [ReactNative](#reactnative)
-<!-- - [Glossary](#glossary) -->
+- [Glossary](#glossary)
 ---
 
 ## Git
@@ -192,3 +192,9 @@
 - [Expo로 리액트 네이티브 시작하기](./react-native/Expo로-리액트-네이티브-시작하기.md)
 - [Expo vs React-Native-CLI](./react-native/Expo-vs-React-Native-CLI.md)
 - [React Native for web](./react-native/React-Native-for-web.md)
+
+## Glossary
+
+- [KISS 원칙](./glossary/KISS-원칙.md)
+- [폴리시 표기법](./glossary/폴리시-표기법.md)
+
