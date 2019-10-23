@@ -5,7 +5,7 @@
 ### 함수형 컴포넌트일 때
 
 props를 파라미터로 받아서 사용한다.
-```javascript
+```
 const MyComponent = (props) => {
   return(
     <ul>
@@ -18,7 +18,7 @@ const MyComponent = (props) => {
 
 혹은 다음과 같이 destructuring props를 사용해도 된다.
 
-```javascript
+```j
 const MyComponent = ({name, age}) => {
   return(
      <ul>
@@ -32,7 +32,7 @@ const MyComponent = ({name, age}) => {
 
 ### 클래스일 때 
 Component 클래스를 상속 받으면 `this.props`로 Props에 접근할 수 있다.
-```javascript
+```
 class MyComponent extends React.Component {
   render() {
     return (
