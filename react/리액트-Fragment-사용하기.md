@@ -45,3 +45,4 @@ render() {
 
 - [Fragments - 공식문서](https://ko.reactjs.org/docs/fragments.html)
 - [React-버전-16-총정리](https://www.vobour.com/%EB%A6%AC%EC%95%A1%ED%8A%B8-react-%EB%B2%84%EC%A0%84-16-%EC%B4%9D%EC%A0%95%EB%A6%AC)
+- [안드로이드 - Android Activity와 Fragment의 문제점](http://labs.brandi.co.kr/2018/07/17/gojs.html)
