@@ -33,7 +33,7 @@ const MyComponent = ({name, age}) => {
 ### 클래스일 때 
 Component 클래스를 상속 받으면 `this.props`로 Props에 접근할 수 있다.
 ```
-class MyComponent extends React.Component {
+class MyComponent extends Component {
   render() {
     return (
       <ul>
