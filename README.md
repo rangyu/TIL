@@ -28,6 +28,7 @@
 - [NodeJS](#nodejs)
 - [React](#react)
 - [ReactNative](#reactnative)
+- [SSH](#ssh)
 - [Glossary](#glossary)
 ---
 
@@ -195,6 +196,9 @@
 - [Expo로 리액트 네이티브 시작하기](./react-native/Expo로-리액트-네이티브-시작하기.md)
 - [Expo vs React-Native-CLI](./react-native/Expo-vs-React-Native-CLI.md)
 - [React Native for web](./react-native/React-Native-for-web.md)
+
+## SSH
+- [SSH 접속 오류 (ECDSA host key 에러) 해결법](./ssh/SSH-접속-오류-(ECDSA-host-key-에러)-해결법.md)
 
 ## Glossary
 - [KISS 원칙](./glossary/KISS-원칙.md)
