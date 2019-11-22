@@ -29,8 +29,8 @@
 - [React](#react)
 - [ReactNative](#reactnative)
 - [SSH](#ssh)
-- [Glossary](#glossary)
 - [MaterialUI](#materialui)
+- [Glossary](#glossary)
 ---
 
 ## Git
