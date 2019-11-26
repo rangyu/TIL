@@ -59,6 +59,7 @@
 - [비트나미 워드프레스의 Let's Encrypt 인증서 자동 갱신하기](./bitnami/비트나미-워드프레스의-LetsEncrypt-인증서-자동-갱신하기.md)
 - [비트나미 워드프레스 배너 비활성화 하는 방법](./bitnami/비트나미-워드프레스-배너-비활성화-하는-방법.md)
 - [비트나미 워드프레스에서 phpMyAdmin 접속하기](./bitnami/비트나미-워드프레스에서-phpmyadmin-접속하기.md)
+- [비트나미 워드프레스 httpd.conf 파일 경로](./bitnami/비트나미-워드프레스-httpd-conf-파일-경로.md)
 
 ## Mac
 - [Mac에서 가상 호스트 (VirtualHost) 설정하기](./mac/Mac에서-가상-호스트-VirtualHost-설정하기.md)
