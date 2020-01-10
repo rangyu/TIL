@@ -62,8 +62,7 @@ brew install ant
 다음과 같이 새 Cordova 프로젝트를 만든다.
 
 ```bash
-cordova create hello-cordova me.rangyu.hello-cordova HelloCordova
-cordova create 폴더명 com.example.appid 앱타이틀
+cordova create hello com.example.hello HelloCordova
 ```
 
 ## 플랫폼 추가하기
