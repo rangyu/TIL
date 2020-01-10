@@ -70,7 +70,7 @@ cordova create hello com.example.hello HelloCordova
 생성된 프로젝트 경로로 들어간다.
 
 ```bash
-cd hello-cordova
+cd hello
 ```
 
 필요한 플랫폼을 추가한다.
